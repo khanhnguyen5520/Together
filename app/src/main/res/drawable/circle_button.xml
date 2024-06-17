@@ -1,0 +1,17 @@
+
+    <!-- button_combined_background.xml -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+<!-- First background -->
+<item>
+    <shape>
+        <solid android:color="#FFCCFF" /> <!-- Màu nền của nút -->
+        <corners android:radius="50dp" /> <!-- Bo tròn với bán kính 50% để tạo hình tròn -->
+        <size
+            android:width="100dp"
+            android:height="100dp"/>
+    </shape>
+</item>
+<!-- Second background overlay -->
+<item android:drawable="@drawable/baseline_location_on_24"
+    android:top="4dp" android:left="4dp" android:right="4dp" android:bottom="4dp"/>
+</layer-list>
